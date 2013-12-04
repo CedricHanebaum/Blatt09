@@ -72,11 +72,6 @@ public class Rechteck extends Figur {
 		punkte.add(new Point(upperLeft.x + width, upperLeft.y + height));
 		punkte.add(new Point(upperLeft.x, upperLeft.y + height));
 		punkte.add(new Point(upperLeft));
-		
-		System.out.println("Figur:");
-		for(Point p: punkte){
-			System.out.println(p);
-		}
 	}
 
 	public String toString() {
